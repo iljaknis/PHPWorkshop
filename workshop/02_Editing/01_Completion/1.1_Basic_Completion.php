@@ -30,6 +30,7 @@ class BasicCompletion
         //    Use Basic Completion a second time to see more variants.
         //    Select $this->Name using space, tab or enter accept the choice.
         // $this->
+        $this->Name;
 
 
         // 2. Type: $value =
@@ -40,6 +41,7 @@ class BasicCompletion
         //    might be at the top as it's the most used.
         //    Dismiss the window with Esc.
         // $value =
+        $value = $this->Age;
 
 
         // 3. Type: $this->r
@@ -50,7 +52,8 @@ class BasicCompletion
         // 7. Type: if (true
         //    Complete the statement using Complete Statement.
         // if (true
-
+        if (true) {
+        }
 
         // 8. Place the caret right after "say". Use basic completion and replace
         //     the sayHello() method with sayGoodbye().
